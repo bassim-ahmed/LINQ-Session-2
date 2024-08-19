@@ -342,10 +342,28 @@ namespace Assignment_2_Linq
             #endregion
             #region LINQ - Quantifiers
 
-            //var words = File.ReadAllLines("dictionary_english.txt");
-
-            //var Result = words.Any(w => w.Contains("ei"));
-
+//            string[] wordArray =
+//          {
+//    "wwwwwwwww", "d", "aa", "aaa", "aah", "aahed", "aahing", "aahs",
+//    "aal", "aalii", "aaliis", "aals", "aam", "aani", "aardvark", "aardvarks",
+//    "aardwolf", "aardwolves", "aargh", "aaron", "aaronic", "aaronical",
+//    "aaronite", "aaronitic", "aarrgh", "aarrghh", "aaru", "aas", "aasvogel",
+//    "aasvogels", "ab", "aba", "ababdeh", "ababua", "abac", "abaca", "abacay",
+//    "abacas", "abacate", "abacaxi", "abaci", "abacinate", "abacination",
+//    "abacisci", "abaciscus", "abacist", "aback", "abacli", "abacot",
+//    "abacterial", "abactinal", "abactinally", "abaction", "abactor",
+//    "abaculi", "abaculus", "abacus", "abacuses", "abada", "abaddon",
+//    "abadejo", "abadengo", "abadia", "abadite", "abaff", "abaft", "abay",
+//    "abayah", "abaisance", "abaised", "abaiser", "abaisse", "abaissed",
+//    "abaka", "abakas", "abalation", "abalienate", "abalienated",
+//    "abalienating", "abalienation", "abalone", "abalones", "abama",
+//    "abamp", "abampere", "abamperes", "abamps", "aband", "abandon",
+//    "abandonable", "abandoned", "abandonedly", "abandonee", "abandoner",
+//    "abandoners", "abandoning", "abandonment", "abandonments", "abandons",
+//    "abandum", "abanet", "abanga", "abanic", "abannition", "abantes"
+//};
+//            var Result = wordArray.Any(w => w.Contains("ei"));
+       
 
             //var Result = ProductList.GroupBy(p => p.Category).Where(c => c.Any(p => p.UnitsInStock == 0)).Select(p => p);
 
